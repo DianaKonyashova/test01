@@ -13,3 +13,13 @@ void CreateNewArray(string[] strArray, string[] newArray)
         }
     }
 }
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        System.Console.WriteLine($"{array[i]} ");
+    }
+    System.Console.WriteLine();
+}
+CreateNewArray(strArray, newArray);
+PrintArray(newArray);
